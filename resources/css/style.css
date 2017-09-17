@@ -238,7 +238,7 @@ header{
 
 /* Mobile Navi */
 .mobile-nav-icon {
-    float: right;
+    float: left;
     margin-top: 30px;
     cursor: pointer;
     display: none;
@@ -294,7 +294,7 @@ header{
 .meals-showcase li {
     display: block;
     float: left;
-    width: 25%;
+    width: 50%;
 }
 
 .meal-photo {
