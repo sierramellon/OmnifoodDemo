@@ -45,6 +45,39 @@ section {
     padding: 1%;
 }
 
+/* ------------- SECTIONS ----------- */
+.section-intro{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/intro-back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/intro-back.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: none;
+}
+
+.section-create-goal {
+    display: none;
+}
+
+.section-signup {
+    display: none;
+}
+
+.section-weekly-plan {
+    display: none;
+}
+
+.section-daily-plan {
+    display: none;
+}
+
+.section-home {
+    display: none;
+}
+
+.show {
+    display: block;
+}
 
 /* ------------- HEADINGS ----------- */
 h1, h2, h3{
@@ -176,14 +209,6 @@ input[type=submit]:active {
 }
 
 /* ------------- HEADER ----------- */
-header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/intro-back.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/intro-back.jpg);
-    background-size: cover;
-    background-position: center;
-    height: 100vh;
-   
-}
 
 .hero-text-box {
    position: absolute;
