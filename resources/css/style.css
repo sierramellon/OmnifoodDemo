@@ -279,32 +279,32 @@ header{
     margin-bottom: 30px;
 }
 
-/* ------------- MEALS ----------- */
+/* ------------- HOME ----------- */
 
-.section-meals {
+.section-home {
     padding: 0;
 }
 
-.meals-showcase {
+.home-showcase {
     list-style: none;
     width: 100%;
 }
 
 
-.meals-showcase li {
+.home-showcase li {
     display: block;
     float: left;
     width: 50%;
 }
 
-.meal-photo {
+.home-photo {
     width: 100%;
     margin: 0;
     overflow: hidden;
     background-color: #000;
 }
 
-.meal-photo img {
+.home-photo img {
     opacity: 0.7;
     width: 100%;
     height: auto;
@@ -316,7 +316,7 @@ header{
     transition: transform 0.5s, opacity 0.5s, -webkit-transform 0.5s;
 }
 
-.meal-photo img:hover {
+.home-photo img:hover {
     -webkit-transform: scale(1.03);
     transform: scale(1.03);
     opacity: 1;
