@@ -710,7 +710,7 @@ footer p{
     top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: rgba(217, 212, 208, 0.43);
+    color: #fff;
 }
 
 .city-info img {
