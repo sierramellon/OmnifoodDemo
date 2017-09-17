@@ -718,3 +718,24 @@ footer p{
    width: 100%;
    overflow: hidden;
 }
+
+/*----------overlay color over img------------*/
+.overlay {
+  position: relative;
+}
+
+.overlay:before {
+  position: absolute;
+  content:" ";
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  display: none;
+  z-index:0;
+  background-color: rgba(0,255,0,0.5);
+}
+
+.overlay:hover:before {
+  display: block;
+}
