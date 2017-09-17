@@ -660,5 +660,27 @@ footer p{
 .js--wp-1.animated,
 .js--wp-2.animated,
 .js--wp-3.animated {
-    opacity: 1;
+    opacity: 1;,
+}
+
+
+/*----------text over imag------------*/
+
+.city-info {
+   position:relative;
+}
+
+.city-info h3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(217, 212, 208, 0.43);
+}
+
+.city-info img {
+   height: 200px;
+   width: 100%;
+   overflow: hidden;
+   background-image: linear-gradient(rgba(62, 60, 60, 0.65), rgba(62, 60, 60, 0.4));
 }
