@@ -13,7 +13,7 @@ html, body{
     color: #5a5a5a;
     font-family: 'Lato', 'Arial', sans-serif;
     font-weight: 300;
-    font-size: 20px;
+    font-size: 15px;
     text-rendering: optimizeLegibility;
     background-attachment: fixed;
     overflow-x:hidden;
@@ -56,7 +56,7 @@ h1 {
     margin-top: 0;
     margin-bottom: 30px;
     color: white;
-    font-size: 240%;
+    font-size: 200%;
     word-spacing: 4px;
     letter-spacing: 1px;
 }
@@ -177,8 +177,8 @@ input[type=submit]:active {
 
 /* ------------- HEADER ----------- */
 header{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/hero-min.jpg);
-    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/hero-min.jpg);
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.7)), to(rgba(0, 0, 0, 0.7))), url(img/intro-back.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/intro-back.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -195,7 +195,7 @@ header{
 }
 
 .logo{
-    height: 100px;
+    height: 40px;
     width: auto;
     float: left;
     margin-top: 20px;
@@ -499,11 +499,20 @@ cite {
     margin:0 auto;
 }
 
-input[type=text], input[type=email], select, textarea {
+input[type=password], input[type=email], input[type=text], select, textarea {
     width: 100%;
     padding: 7px;
     border-radius: 3px;
     border: 1px solid #ccc;
+    margin: 5px 0;
+}
+
+input[type=submit] {
+    position:relative;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+    margin-top: 40px;
 }
 
 textarea {
