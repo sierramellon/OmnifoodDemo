@@ -50,6 +50,12 @@ $(document).ready(function(){
         current_section = '.section-weekly-plan';
         $(current_section).toggleClass('show');
     });
+
+    $('.nav-to-daily-plan').click(function() {
+        $(current_section).toggleClass('show');
+        current_section = '.section-daily-plan';
+        $(current_section).toggleClass('show');
+    });
     
     /* Navigation scroll */
     $(function() {
