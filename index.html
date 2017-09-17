@@ -38,58 +38,59 @@
             </div>
         </header>
         
-        <div class="map-box">
-            
-            <div class="form-box" id="form">
-                <div class="row">
-                    <h2>What is your goal?</h2>
-                </div>
+        <section class="section-create-goal" id="create-goal">
+            <div class="map-box">
                 
-                <div class="row">
-                    <form method="post" action="mailer.php" class="contact-form">
-                        <div class="row">
-                            <div class="col span-1-of-3">
-                                <input type="text" name="goal" id="goal" placeholder="e.g. I want to get rid of my back pain" required>
+                <div class="form-box" id="form">
+                    <div class="row">
+                        <h2>What is your goal?</h2>
+                    </div>
+                    
+                    <div class="row">
+                        <form method="post" action="mailer.php" class="contact-form">
+                            <div class="row">
+                                <div class="col span-1-of-3">
+                                    <input type="text" name="goal" id="goal" placeholder="e.g. I want to get rid of my back pain" required>
+                                </div>
                             </div>
-                        </div>
-                        <div class="row">
-                            <input class="btn" type="submit" value="Continue">
-                        </div>
-                    </form>
+                            <div class="row">
+                                <input class="btn" type="submit" value="Continue">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-       <div class="map-box">
-            
-            <div class="form-box" id="form">
-                <div class="row">
-                    <h2>Sign up to retrieve your personalized plan</h2>
-                </div>
+       <section class="section-signup" id="signup">
+           <div class="map-box">
                 
-                <div class="row">
-                    <form method="post" action="mailer.php" class="contact-form">
-                        <div class="row"> 
-                            <input type="email" name="email" id="email" placeholder="Email" required>          
-                        </div>
-                        <div class="row">
-                            <input type="password" name="pwd" id="pwd" placeholder="Password" required>
-                        </div>
-                        <div class="row">
-                            <input type="password" name="pwd" id="repwd" placeholder="Confirm Password" required>
-                        </div>
-                        <div class="row">
-                            <input class="btn" type="submit" value="Sign up">
-                        </div>
-                    </form>
+                <div class="form-box" id="form">
+                    <div class="row">
+                        <h2>Sign up to retrieve your personalized plan</h2>
+                    </div>
+                    
+                    <div class="row">
+                        <form method="post" action="mailer.php" class="contact-form">
+                            <div class="row"> 
+                                <input type="email" name="email" id="email" placeholder="Email" required>          
+                            </div>
+                            <div class="row">
+                                <input type="password" name="pwd" id="pwd" placeholder="Password" required>
+                            </div>
+                            <div class="row">
+                                <input type="password" name="pwd" id="repwd" placeholder="Confirm Password" required>
+                            </div>
+                            <div class="row">
+                                <input class="btn" type="submit" value="Sign up">
+                            </div>
+                        </form>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <section class="section-cities" id="cities">
-
-            
-            
+        <section class="section-cities" id="cities">         
             <div class="row">
                 <a class=""><i class="ion-ios-arrow-back"></i></a>
                 <h2>Weekly Plan</h2>
